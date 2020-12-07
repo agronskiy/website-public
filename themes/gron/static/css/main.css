@@ -20226,7 +20226,7 @@ pre.chroma {
 
 div.highlight {
   border-style: solid;
-  border-radius: .3rem;
+  border-radius: 5px;
   border-width: 1px;
   border-color: #c2c2c2;
   margin: 1.5rem 0rem;
