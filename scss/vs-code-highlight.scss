@@ -359,9 +359,13 @@ pre.chroma {
 
 div.highlight {
     border-style: solid;
-    border-radius: 5px; // rem would not work ok on iOS
     border-width: 1px;
     border-color: $custom-code-border-color;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
     margin: 1.5rem 0rem;
     /* See https://stackoverflow.com/questions/12403998/border-is-cutting-off-when-using-border-radius */
     overflow: hidden;
