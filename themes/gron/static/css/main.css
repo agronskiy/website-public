@@ -20233,7 +20233,8 @@ div.highlight {
   -moz-border-radius: 5px;
   margin: 1.5rem 0rem;
   /* See https://stackoverflow.com/questions/12403998/border-is-cutting-off-when-using-border-radius */
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black); }
   div.highlight code {
     font-size: 95%; }
     @media (min-width: 768px) {
